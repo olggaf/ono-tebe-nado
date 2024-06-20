@@ -90,6 +90,7 @@
   word-spacing: 0.62em;
 }
 .bet-button {
+  font-family: inherit;
   font-size: 150%;
   text-transform: inherit;
   padding: 10px 31px;
@@ -112,8 +113,8 @@
 .lots__card-list {
   display: flex;
   list-style: none;
-  column-gap: 25px;
-  justify-content: center;
+  gap: 25px;
+  justify-content: left;
   color: #fff;
   flex-wrap: wrap;
 }
@@ -165,6 +166,7 @@
   display: block;
   font-size: 105%;
   margin: 30px 0 0 40px;
+  max-width: fit-content;
 }
 
 /* about */
