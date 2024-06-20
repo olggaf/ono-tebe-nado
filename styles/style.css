@@ -1,7 +1,7 @@
 /* header */
 .header {
   display: grid;
-  grid-template-columns: 1fr 132px 1fr;
+  grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   font-size: 90%;
   letter-spacing: 0.04em;
@@ -23,7 +23,7 @@
   text-decoration: none;
 }
 .header__logo-image {
-  width: 100%;
+  width: 132px;
   margin: 92px 0 96px;
 }
 .address {
